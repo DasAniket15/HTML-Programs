@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>content</title>
+    </head>
+
+    <style>
+        html {
+            background-color: powderblue;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        label {
+            margin-right: 10px;
+        }
+
+        input {
+            margin-bottom: 5px;
+        }
+
+        select, textarea {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+
+    <body>
+        <h2 align="center">REGISTRATION</h2>
+
+        <form>
+            <label for="Roll. No">Roll. No:</label>
+            <input type="text" name="Roll. No" placeholder="Roll. No."/><br>
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Name"/><br>
+            
+            <label for="branch">Branch:</label>
+            <input type="radio" id="cs" value="CS">
+            <label for="cs">CS</label>
+            <input type="radio" id="it" value="IT">
+            <label for="it">IT</label><br>
+
+            <label for="degree">Degree:</label>
+            <select name="degree" id="degree">
+                <option value="b.tech">B.Tech</option>
+                <option value="m.tech">M.Tech</option>
+            </select><br>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="50" placeholder="Address"></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
